@@ -1,12 +1,12 @@
 # Student Performance Analytics & Prediction
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes student academic data using Python and explores the relationship between study hours, attendance, and academic performance.
 
 The project demonstrates a complete data analysis and machine learning workflow, including data cleaning, exploratory data analysis, visualization, feature analysis, train-test splitting, linear regression, and model evaluation.
 
-## 🎯 Objectives
+## Objectives
 
 * Analyze student academic performance data.
 * Identify patterns and relationships between study hours, attendance, and marks.
@@ -15,7 +15,7 @@ The project demonstrates a complete data analysis and machine learning workflow,
 * Apply Linear Regression as a machine learning experiment.
 * Evaluate model performance using MAE, MSE, RMSE, and R² Score.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python**
 * **Pandas**
@@ -25,7 +25,7 @@ The project demonstrates a complete data analysis and machine learning workflow,
 * **Scikit-learn**
 * **Jupyter Notebook**
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains student-related information including:
 
@@ -39,7 +39,7 @@ The dataset contains student-related information including:
 
 The `ID` and `Name` columns were excluded from the modeling stage because they are not meaningful predictive features.
 
-## 🔍 Data Analysis
+## Data Analysis
 
 The project includes:
 
@@ -53,7 +53,7 @@ The project includes:
 * Correlation analysis
 * Feature selection
 
-## 🤖 Machine Learning Experiment
+##  Machine Learning Experiment
 
 A **Linear Regression** model was trained using:
 
@@ -68,7 +68,7 @@ A **Linear Regression** model was trained using:
 
 The dataset was divided into training and testing sets using an **80:20 split**.
 
-## 📏 Model Evaluation
+##  Model Evaluation
 
 The Linear Regression model produced the following results on the test data:
 
@@ -81,7 +81,7 @@ The Linear Regression model produced the following results on the test data:
 
 The results indicate that the available features have limited linear predictive power for the target variable in this dataset.
 
-## 💡 Key Finding
+##  Key Finding
 
 The correlation analysis showed very weak relationships between the available features and student marks:
 
@@ -92,7 +92,7 @@ Therefore, the Linear Regression model demonstrated limited predictive performan
 
 Rather than artificially improving the model results, this project documents the limitation of the available dataset and demonstrates the importance of evaluating data quality and feature relationships before selecting a machine learning model.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Student-Performance-Analytics-Prediction/
@@ -116,9 +116,9 @@ Student-Performance-Analytics-Prediction/
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-## 👨‍💻 Author
+## Author
 
-**Rahul Pal**
+Rahul Pal
 
 B.Tech CSE (AI/ML)
 Maharana Institute of Professional Studies, Kanpur
